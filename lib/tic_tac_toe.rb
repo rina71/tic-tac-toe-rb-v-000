@@ -79,7 +79,7 @@ def over?(board)
 end
 
   def winner(board)
-    if WIN_COMBINATIONS.include?(won?(board))
+    if won?(board)
       if board.count("X") > board.count("O")
         "X"
       else
