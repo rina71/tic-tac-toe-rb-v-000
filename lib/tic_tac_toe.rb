@@ -85,7 +85,6 @@ end
       else
         "O"
       end
-    else
     end
   end
 
