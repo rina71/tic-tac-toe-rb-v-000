@@ -78,7 +78,7 @@ def draw?(board)
     end
 
   end
-  false
+  true
   #  full?(board) && WIN_COMBINATIONS.include?(won?(board)) == !!WIN_COMBINATIONS.include?(won?(board))
 
   #  !WIN_COMBINATIONS.include?(won?(board)) == !full?(board)
