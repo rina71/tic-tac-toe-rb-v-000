@@ -71,16 +71,15 @@ def full?(board)
 end
 
 def draw?(board)
-  if !WIN_COMBINATIONS.include?(won?(board)) == full?(board)
-    true
-  elsif !WIN_COMBINATIONS.include?(won?(board)) == !full?(board)
-    false
-  # elsif WIN_COMBINATIONS.include?(won?(board))
+   full?(board) && WIN_COMBINATIONS.include?(won?(board)) == !!WIN_COMBINATIONS.include?(won?(board))
+
+  #  !WIN_COMBINATIONS.include?(won?(board)) == !full?(board)
+  #   false
   #   false
 
   # end
   # won?(board) && full?(board)
-end
+# end
 end
 
 def over?(board)
