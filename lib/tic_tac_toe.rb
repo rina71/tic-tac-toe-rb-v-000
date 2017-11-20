@@ -74,11 +74,12 @@ def draw?(board)
   if !WIN_COMBINATIONS.include?(won?(board))
     if full?(board)
     else
-      false
-    end
 
+    end
+if WIN_COMBINATIONS.include?(won?(board))
+false
   end
-  true
+
   #  full?(board) && WIN_COMBINATIONS.include?(won?(board)) == !!WIN_COMBINATIONS.include?(won?(board))
 
   #  !WIN_COMBINATIONS.include?(won?(board)) == !full?(board)
