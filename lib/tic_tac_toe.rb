@@ -1,4 +1,3 @@
-require 'pryf board.count("X"'
 WIN_COMBINATIONS = [
   [0,1,2],
   [3,4,5],
@@ -80,7 +79,7 @@ def over?(board)
 end
 
   def winner(board)
-    
+
     if won?(board)
       if board.count("X") > board.count("O")
         "X"
