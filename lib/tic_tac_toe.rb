@@ -75,10 +75,7 @@ def draw?(board)
 end
 
 def over?(board)
-  if WIN_COMBINATIONS.include?(won?(board)) == draw?(board) || WIN_COMBINATIONS.include?(won?(board)) == full?(board)
-  else
-    false
-  end
+  full?(board) || won?(board)
 end
 
   def winner(board)
