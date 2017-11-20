@@ -79,6 +79,7 @@ def over?(board)
 end
 
   def winner(board)
+    binding.pry
     if won?(board)
       if board.count("X") > board.count("O")
         "X"
