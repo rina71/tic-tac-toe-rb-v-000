@@ -94,7 +94,7 @@ end
       turn(board)
     end
     if draw?(board)
-    end
+    
 
     end
     if winner(board) == "X"
