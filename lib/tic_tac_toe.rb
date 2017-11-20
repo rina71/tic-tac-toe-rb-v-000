@@ -99,7 +99,7 @@ end
   end
 
   def play(board)
-    until over?(board) && WIN_COMBINATIONS.include?(won?(board)
+    until over?(board) && WIN_COMBINATIONS.include?(won?(board))
       turn(board)
       gets = 1
 
