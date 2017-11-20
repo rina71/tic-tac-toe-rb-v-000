@@ -1,4 +1,4 @@
-require 'pry'
+require 'pryf board.count("X"'
 WIN_COMBINATIONS = [
   [0,1,2],
   [3,4,5],
@@ -100,7 +100,7 @@ end
     elsif winner(board) == "O"
       puts "Congratulations O!"
 
-    elsif draw?(board)
+    else
       puts "Cat's Game!"
     end
   end
