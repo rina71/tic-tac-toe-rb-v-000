@@ -92,7 +92,6 @@ end
   def play(board)
     until over?(board)
       turn(board)
-      gets = 1
 
       if winner(board) == "X"
         puts "Congratulations X!"
