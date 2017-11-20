@@ -81,15 +81,6 @@ elsif !WIN_COMBINATIONS.include?(won?(board))
   end
   end
 
-  #  full?(board) && WIN_COMBINATIONS.include?(won?(board)) == !!WIN_COMBINATIONS.include?(won?(board))
-
-  #  !WIN_COMBINATIONS.include?(won?(board)) == !full?(board)
-  #   false
-  #   false
-
-  # end
-  # won?(board) && full?(board)
-# end
 end
 
 def over?(board)
